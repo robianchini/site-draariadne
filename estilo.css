@@ -1,0 +1,561 @@
+@font-face {
+	font-family: Rodger-Black;
+	src: url(fonts/Rodger-Black.ttf);
+}
+
+@font-face {
+	font-family: Rodger-Bold;
+	src: url(fonts/Rodger-Bold.ttf);
+}
+
+@font-face {
+	font-family: Rodger-Light;
+	src: url(fonts/Rodger-Light.ttf);
+}
+
+@font-face {
+	font-family: Rodger-Regular;
+	src: url(fonts/Rodger-Regular.ttf);
+}
+
+@font-face {
+	font-family: Rodger-Thin;
+	src: url(fonts/Rodger-Thin.ttf);
+}
+
+
+/*  PC */
+@media only screen and (min-width: 769px) {
+
+
+	html{
+		scroll-behavior: smooth;
+	}
+
+	h3{
+		font-family: Rodger-Bold;
+		color: #4A4849;
+	}
+
+	#nav{
+		margin-left: 350px;
+		font-size: 14px;
+	}
+
+	.btnwpp{
+		position: fixed;
+		z-index: 100000;
+		bottom: 30px;
+		right: 30px;
+		width: 50px;
+		height: 50px;
+		transition: 0.3s;
+	}
+
+	.btnwpp:hover{
+		width: 55px;
+		height: 55px;
+		transition: 0.3s;
+	}
+
+	.ocultapc{
+		display: none;
+	}
+
+	.contquemsomos{
+		height: 350px !important;
+		overflow:auto; 
+		padding: 10px;
+	}
+
+	/* width */
+	::-webkit-scrollbar {
+	  width: 5px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+	  color: transparent;
+	}
+	 
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+	  background: #EF848C; 
+	  border-radius: 10px;
+	}
+
+	#declaracoes{
+		background-color: #b7dfdf;
+		padding: 35px;
+		text-align: center;
+		margin-top: -40px;
+	}
+
+	#menu{
+		background-color: #f9f2e5;
+		padding-top: 25px;
+	}
+
+	#sobre{
+		height: 840px;
+		background-image: url("img/fundo-nuvem.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-color: rgba(0,0,0,0);
+		padding: 30px;
+		margin-top: -60px;
+	}
+
+	#cuidados{
+		padding: 30px;
+		background-image: url("img/fundo-nuvem.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+	}
+
+	#footer{
+		height: 220px;
+		background-image: url("img/fundo-nuvem.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-color: rgba(0,0,0,0);
+		padding: 30px;
+		margin-top: 160px;
+		text-align: center;
+	}
+
+	#divserv2{
+		padding: 0px 50px 0px 50px;
+		margin-bottom: -50px;
+	}
+
+	.tit-ftr{
+		font-family: Rodger-Bold;
+		margin-top: -150px;
+		font-size: 35px;
+		color: #f8b5b7;
+	}
+
+	.txt-ftr{
+		margin-top: -30px;
+		text-transform: uppercase;
+		font-family: Rodger-Bold;
+		color: #231F20;
+	}
+
+	#header{
+		height: 500px;
+		margin-top: -25px;
+		background-image: url("img/foto-amor.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+	}
+
+	#especialidades{
+		text-align: center;
+		padding-top: 80px;
+	}
+
+	.tit-esp{		
+		color: #f8b5b7;
+		font-family: Rodger-Bold;
+		letter-spacing: 10px;
+		margin-bottom: 50px;
+	}
+
+	.subt-esp{
+		color: #4a4849;
+		font-family: Rodger-Light;
+		text-transform: uppercase;
+	}
+
+	.txt-di{
+		font-family: Rodger-Light;
+	}
+
+	.txt-esp{
+		padding: 10px 30px 80px 30px;
+		font-family: Rodger-Light;
+		text-align: justify !important;
+		color: #4a4849;
+	}
+
+	.txt-cesp{
+		padding-left: 300px;
+		padding-bottom: 80px;
+		font-family: Rodger-Light;
+		text-align: justify !important;
+		color: #4a4849;
+	}
+
+	.logomb{
+		display: none;
+	}
+
+	.logo{
+		position: absolute;
+	}
+
+	.bgsobre{
+		background-color: #fff;
+		margin-top: 180px;
+		padding: 45px;
+		border-radius: 35px;
+	}
+
+	.bgcui{
+		background-color: #fff;
+		border-radius: 35px;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.tit-sobre{
+		color: #f8b5b7;
+		font-family: 'Rodger-Bold', sans-serif;
+		text-transform: uppercase;
+	}
+
+	.icone-nuvem{
+		width: 30px;
+		margin-right: 20px;
+		margin-top: -15px;
+	}
+
+	.img-header{
+		margin-top: -57px;
+		width: 100%;
+	}
+
+	.foto-dra{
+		height: 400px;
+	}
+
+	.img-nuvem{
+		margin-top: -580px;
+		z-index: 100;
+		width: 250px;
+	}
+
+	.text-nuvem{
+		margin-top: -360px;
+		margin-left: -1065px;
+		text-align: center;
+		color: #fff;
+		font-size: 18px;
+	}
+
+	.textoquemsomos{
+		font-family: Rodger-Light;
+		text-align: justify;
+	}
+
+	.iframe{
+		width: 100%;
+		border-style: none;
+		height: 300px;
+	}
+
+	.nav-item{
+		margin-right: 10px !important;
+		color: black !important;
+		font-family: 'Rodger-Bold', sans-serif;
+	}
+
+	.active{
+		text-align: center;
+		background-color: #f7b5b7;
+		padding: 0px 10px 0px 10px;
+		border-radius: 20px;
+	}
+
+	.imgfrt{
+		display: none;
+		z-index: -10;
+	}
+
+	.imgcrd{
+		height: 35px;
+		z-index: 10;
+		float: left;
+		margin-top: 130px;
+	}
+
+	.img-galeria{		
+		width: 100%;
+	}
+
+	.link-ftr{
+		color: black !important;
+	}
+
+	.list-item-img{
+		height: 20px;
+	}
+
+	.link-end{
+		text-decoration: none;
+		color: #4a4849;
+	}
+
+	.link-end:hover{
+		text-decoration: none;
+		color: #f8b5b7; 
+	}
+}
+
+/*  MOBILE */
+@media only screen and (max-width: 768px) {
+	html{
+		scroll-behavior: smooth;
+	}
+
+	h3{
+		font-family: Rodger-Bold;
+		color: #4A4849;
+	}
+
+	.btnwpp{
+		position: fixed;
+		z-index: 100000;
+		bottom: 30px;
+		left: 30px;
+		width: 50px;
+		height: 50px;
+		transition: 0.3s;
+	}
+
+	/* width */
+	::-webkit-scrollbar {
+	  width: 5px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+	  color: transparent;
+	}
+	 
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+	  background: #EF848C; 
+	  border-radius: 10px;
+	}
+
+	.contquemsomos{
+		height: 350px !important;
+		overflow: auto; 
+		padding: 20px;
+	}
+
+	.ocultambl{
+		display: none;
+	}
+
+	#declaracoes{
+		background-color: #b7dfdf;
+		padding: 35px;
+		text-align: center;
+	}
+
+	#sobre{
+		height: 840px;
+		background-image: url("img/fundo-nuvem.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-color: rgba(0,0,0,0);
+		padding: 15px;
+		margin-top: -60px;
+	}
+
+	#footer{
+		margin-top: 160px;
+		text-align: center;
+		width: 100%;
+		background-image: url("img/fundo-nuvem-mb.png");
+		background-size: 250% 180px;
+		background-repeat:no-repeat;
+		background-color: rgba(0,0,0,0);
+		background-position: bottom;
+		margin-top: 160px;
+		bottom: 0;
+	}
+
+	#cuidados{
+		padding: 20px 10px 10px 20px;
+		background-image: url("img/fundo-nuvem.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+	}
+
+	.tit-ftr{
+		font-family: Rodger-Bold;
+		margin-top: -150px;
+		font-size: 35px;
+		color: #EF848C;
+	}
+
+	.txt-ftr{
+		margin-top: -30px;
+		text-transform: uppercase;
+		font-family: Rodger-Bold;
+		color: #231F20;
+	}
+
+	#header{
+		height: 180px;
+		background-image: url("img/foto-amor.png");
+		background-size: cover;
+		background-repeat:no-repeat;
+	}
+
+	#especialidades{
+		text-align: center;
+		padding-top: 60px;
+		background-color: #fff;
+	}
+
+	.tit-esp{
+		color: #f8b5b7;
+		font-family: Rodger-Bold;
+		margin-bottom: 50px;
+	}
+
+	.subt-esp{
+		color: #4a4849;
+		font-family: Rodger-Light;
+	}
+
+	.txt-di{
+		font-family: Rodger-Light;
+	}
+
+	.txt-esp{
+		padding: 10px 30px 80px 30px;
+		font-family: Rodger-Light;
+		text-align: justify !important;
+		color: #4a4849;
+	}
+
+	.logo{
+		display: none;
+	}
+
+	.logomb{
+		margin-top: 10px;
+		margin-left:20px;
+		position: absolute;
+		width: 60px;
+		background-color: #f9f2e5;
+		border-radius: 100%;
+		padding: 10px;
+	}
+
+	.bgsobre{
+		background-color: #fff;
+		margin-top: 70px;
+		padding: 5px;
+		border-radius: 35px;
+		text-align: center;
+		padding-bottom: 0px;
+	}
+
+	.tit-sobre{
+		color: #EF848C;
+		font-family: 'Rodger-Bold', sans-serif;
+		font-size: 25px;
+		padding-top: 15px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.icone-nuvem{
+		width: 30px;
+		margin-right: 20px;
+		margin-top: -15px;
+	}
+
+	.img-header{
+		margin-top: -20px;
+		width: 100%;
+	}
+
+	.foto-dra{
+		height: 250px;
+	}
+
+	.img-nuvem{
+		margin-top: -580px;
+		z-index: 100;
+		width: 250px;
+	}
+
+	.text-nuvem{
+		margin-top: -360px;
+		margin-left: -1065px;
+		text-align: center;
+		color: #fff;
+		font-size: 18px;
+	}
+
+	.textoquemsomos{
+		font-family: Rodger-Light;
+		text-align: justify;
+	}
+
+	.iframe{
+		width: 100%;
+		border-style: none;
+		height: 300px;
+	}
+
+	.nav-item{
+		margin-right: 20px !important;
+		color: black !important;
+		font-family: 'Rodger-Bold', sans-serif;
+	}
+
+	.active{
+		text-align: center;
+		background-color: #f7b5b7;
+		padding: 0px 10px 0px 10px;
+		border-radius: 20px;
+	}
+
+	.imgcrd{
+		margin-top: 150px;
+		height: 25px;
+	}
+
+	.imgfrt{
+		z-index: -50 !important;
+		height: 100%;
+		object-fit: cover;
+    	object-position: center;
+	}
+
+	.img-galeria{		
+		width: 100%;
+	}
+
+	.link-ftr{
+		color: black !important;
+	}
+
+	.list-item-img{
+		height: 20px;
+	}
+
+	.bgcui{
+		background-color: #fff;
+		border-radius: 35px;
+		margin-top: 20px;
+	}
+
+	.txt-cesp{
+		padding: 20px;
+		font-family: Rodger-Light;
+		text-align: justify !important;
+		color: #4a4849;
+	}
+
+}
