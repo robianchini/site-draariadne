@@ -1,7 +1,7 @@
 # Site Doutora Ariadne
-Website criado para a Doutora Ariadne Brito.
+Este website foi criado em parceria com a agência Moluscool para a pediatra Doutora Ariadne Brito, de Uberlândia/MG.
 
 
-URL: http://draariadnebrito.com.br/
+Veja ao vivo: https://robianchini.github.io/site-draariadne/
 
-PORTFOLIO BEHANCE: https://www.behance.net/gallery/79876957/Website-Dra-Ariadne-Brito
+Projeto no Behance: https://www.behance.net/gallery/79876957/Website-Dra-Ariadne-Brito
