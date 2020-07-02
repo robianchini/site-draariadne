@@ -2,7 +2,7 @@
 Este website foi criado em parceria com a agência Moluscool para a pediatra Doutora Ariadne Brito, de Uberlândia/MG.
 No projeto foram usadas as linguagens <b>HTML5, CSS3 e Javascript</b>, com apoio do framework <b>Bootstrap</b>. 
 
-![Dra Ariadne](https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/9b038a79876957.5cd0ef3c51c16.jpg)
+![Dra Ariadne](http://draariadnebrito.com.br/img/logo.png)
 
 
 
